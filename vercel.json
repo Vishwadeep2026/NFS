@@ -2,14 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.py",
+      "src": "PHOENIX-NFS.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "app.py"
+      "dest": "PHOENIX-NFS.py"
     }
   ]
+
 }
